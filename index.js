@@ -2,7 +2,7 @@ console.log('Ready');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 bot.on('ready', () => {
-  bot.user.setGame('Escribe !help o !enchant')
+  bot.user.setGame('Escribe !encantamiento o !help')
 })
 bot.on('message', (message) => {
  if (message.content == '!fs joyeria azul' || message.content == '!fs blue accessories') {
