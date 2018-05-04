@@ -2,7 +2,7 @@ console.log('Ready');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 bot.on('ready', () => {
-  bot.user.setGame('Escribe !help o !enchance')
+  bot.user.setGame('Escribe !help o !enchant')
 })
 bot.on('message', (message) => {
  if (message.content == '!fs joyeria azul' || message.content == '!fs blue accessories') {
@@ -226,7 +226,7 @@ bot.on('message', (message) => {
   message.channel.sendMessage('Para usar el bot escribe "!fs " seguido del nombre del item que quieras subir. Por ejemplo: !fs kzarka' +'\n'
    + '\n' + '\n' + 'Para ver todas las posibilidades escribe: !encantamiento');
  }
-    if (message.content == '!encantamiento'|| message.content == '!enchance' || message.content == '!enchancement') {
+    if (message.content == '!encantamiento'|| message.content == '!enchant' || message.content == '!enchancement') {
   message.channel.sendMessage('!fs equipo verde' + '\n' +
    '!fs equipo azul' + '\n' +
    '!fs equipo de boss' + '\n' +
