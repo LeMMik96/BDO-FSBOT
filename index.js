@@ -1,6 +1,9 @@
 console.log('Ready');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+bot.on('ready', () => {
+  bot.user.setGame('Escribir !help o !encantamiento')
+})
 bot.on('message', (message) => {
  if (message.content == '!fs joyeria azul' || message.content == '!fs blue accessories') {
   message.channel.sendMessage('PRI: 15-20 (max 25)' + '\n' + 
