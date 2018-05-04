@@ -85,7 +85,8 @@ bot.on('message', (message) => {
   'TET: 55fs (max 90)' + '\n' +
   'PEN: 90fs (max 124)' + '\n');
  }
- if (message.content == '!fs equipo verde' || message.content == '!fs green stuff' || message.content == '!fs green item' || message.content == '!fs green gear') {
+ if (message.content == '!fs equipo verde' || message.content == '!fs green stuff' || message.content == '!fs green item' 
+     || message.content == '!fs green gear' || message.content == '!fs armadura verde' || message.content == '!fs arma verde'  ) {
   message.channel.sendMessage('ARMADURA:' + '\n' +
   '+1 hasta +5: dale duro 100% real' + '\n' +
   '+6: 1-3fs (max 10)' + '\n' +
@@ -120,7 +121,8 @@ bot.on('message', (message) => {
   'PEN: 60fs (max 124)' + '\n');
  }
  if (message.content == '!fs equipo azul' || message.content == '!fs blue stuff' || message.content == '!fs blue item' || message.content == '!fs blue gear'
-  || message.content == '!fs liverto' || message.content == '!fs lemoria') {
+  || message.content == '!fs liverto' || message.content == '!fs lemoria' || message.content == '!fs armadura azul' 
+    || message.content == '!fs arma azul' || message.content == '!fs blue awakening' || message.content == '!fs awakening azul'   ) {
   message.channel.sendMessage('ARMADURA:' + '\n' +
   '+1 hasta +5: dale duro 100% real' + '\n'+
   '+6: 2-3fs (max 10)' + '\n' +
@@ -155,7 +157,8 @@ bot.on('message', (message) => {
   'PEN: +90fs (max 124)' + '\n');
  }
  if (message.content == '!fs equipo boss' || message.content == '!fs boss stuff' || message.content == '!fs boss item' || message.content == '!fs boss gear'
-  || message.content == '!fs equipo amarillo') {
+  || message.content == '!fs equipo amarillo' || message.content == '!fs equipo de boss' || message.content == '!fs armadura boss'
+  || message.content == '!fs armadura de boss' || message.content == '!fs arma de boss' || message.content == '!fs boss armor'  ) {
   message.channel.sendMessage('ARMADURA:' + '\n' +
   '+1 hasta +5: dale duro 100% real' + '\n'+
   '+6: 2-3fs (max 10)' + '\n' +
