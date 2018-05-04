@@ -232,7 +232,8 @@ bot.on('message', (message) => {
    '!fs equipo de boss' + '\n' +
    '!fs joyeria azul' + '\n' +
    '!fs joyeria amarilla' + '\n' +
-   '!fs traje profesion' + '\n');
+   '!fs traje profesion' + '\n' +
+   '!all');
  }
   if (message.content == '!tabla' || message.content == '!tabla de fs' || message.content == '!all') {
     message.channel.send("Todos los FS", {
