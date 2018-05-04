@@ -218,7 +218,8 @@ bot.on('message', (message) => {
    || message.content == '!fs traje cocina' || message.content == '!fs traje alquimia' || message.content == '!fs traje pesca'
    || message.content == '!fs traje gathering' || message.content == '!fs traje processing' || message.content == '!fs traje training'
    || message.content == '!fs traje sailing' || message.content == '!fs traje farming' || message.content == '!fs traje trading'
-   || message.content == '!fs traje') {
+   || message.content == '!fs traje' || message.content == '!fs traje de profesion' || message.content == '!fs ropa de profesion'
+   || message.content == '!fs professional clothes') {
   message.channel.sendMessage('+1: 0-3 (max 25)' + '\n' + 
    '+2: 10 (max 35)' + '\n' + 
    '+3: 20 (max 45)' + '\n' + 
