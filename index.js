@@ -234,5 +234,10 @@ bot.on('message', (message) => {
    '!fs joyeria amarilla' + '\n' +
    '!fs traje profesion' + '\n');
  }
+  if (message.content == '!tabla' || message.content == '!tabla de fs' || message.content == '!all') {
+    message.channel.send("Todos los FS", {
+    file: "https://raw.githubusercontent.com/LeMMik96/BDO-FSBOT/master/Tabla_de_enchant.png"
+});
+  }
 });
 bot.login(process.env.BOT_TOKEN);
