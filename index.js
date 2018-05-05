@@ -246,5 +246,5 @@ bot.on('message', (message) => {
     file: "https://raw.githubusercontent.com/LeMMik96/BDO-FSBOT/master/Tabla_de_enchant.png"
 });
   }
-});
+}
 bot.login(process.env.BOT_TOKEN);
