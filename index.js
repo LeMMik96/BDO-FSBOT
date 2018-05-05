@@ -192,7 +192,7 @@ bot.on('message', (message) => {
   'TRI: 35-40fs (max 45)' + '\n' +
   'TET: 55fs (max 90)' + '\n' +
   'PEN: 90fs (max 124)' + '\n');
- }
+
    if (message.content == '!fs grunil' || message.content == '!fs agerian' || message.content == '!fs rocaba'
    || message.content == '!fs taritas' || message.content == '!fs hercules' || message.content == '!fs zereth'
    || message.content == '!fs heve'  || message.content == '!fs talis' || message.content == '!fs fortuna') {
@@ -231,7 +231,8 @@ bot.on('message', (message) => {
   message.channel.sendMessage('Para usar el bot escribe "!fs " seguido del nombre del item que quieras subir. Por ejemplo: !fs kzarka' +'\n'
    + '\n' + '\n' + 'Para ver todas las posibilidades escribe: !encantamiento');
  }
-    if (message.content == '!encantamiento'|| message.content == '!enchant' || message.content == '!enchancement') {
+    if (message.content == '!encantamiento'|| message.content == '!enchant' || message.content == '!enchancement'
+        || message.content == '!fs') {
   message.channel.sendMessage('!fs equipo verde' + '\n' +
    '!fs equipo azul' + '\n' +
    '!fs equipo de boss' + '\n' +
