@@ -21,7 +21,8 @@ bot.on('message', (message) => {
    'PEN: max 124');
  }
  if (message.content == '!fs kzarka' || message.content == '!fs dandelion' || message.content == '!fs kutum' 
-  || message.content == '!fs nouver') {
+  || message.content == '!fs nouver' || message.content == '!fs offin' || message.content == "!fs offin tett's"
+     || message.content == '!fs offin tetts'  || message.content == '!fs offin tet'  || message.content == '!fs offin tets') {
   message.channel.sendMessage('+1 hasta +7: dale duro 100% real' + '\n'+
   '+8: 10fs (max 13)' + '\n' +
   '+9: 11fs (max 14)' + '\n' +
