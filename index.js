@@ -392,7 +392,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo de polvo') {
 			message.channel.sendMessage(
 				'Receta de pure powder reagent:', {
-				file: "./alchemy/purepowder.png"
+				file: "https://github.com/LeMMik96/BDO-FSBOT/blob/master/alchemy/clearliquid.PNG"
 			});
 		}
 
@@ -401,7 +401,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo liquido') {
 			message.channel.sendMessage(
 				'Receta de clear liquid reagent:', {
-				file: "/BDO-FSBOT/alchemy/clearliquid.PNG "
+				file: "/BDO-FSBOT/alchemy/clearliquid.PNG"
 			});
 		}
 
