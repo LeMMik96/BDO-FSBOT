@@ -435,7 +435,7 @@ bot.on('message', (message) => {
 });
 
 //Login Heroku
-bot.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKE);
 
 //Login local
 //bot.login('NDQxNTExNzUwOTkxNDc4Nzg3.DcxVjQ.GVwFlmXnP5J9EPA9o1WSDZZ9YLM');
