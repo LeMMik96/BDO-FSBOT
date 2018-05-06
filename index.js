@@ -415,6 +415,12 @@ bot.on('message', (message) => {
 		}
 
 
+		//Comando !recipes
+		if (message.content == '!recipes' || message.content == '!recetas') {
+		message.channel.sendMessage(
+			'!cocina' + '\n' +
+			'!alquimia');
+	}
 
 
 		//Tabla
