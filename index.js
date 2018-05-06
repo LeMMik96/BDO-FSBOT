@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('ready', () => {
-  bot.user.setGame('Escribe !fs o !help')
+  bot.user.setGame('Escribe !fs , !help o !guides')
 })
 
 bot.on('message', (message) => {
@@ -298,7 +298,8 @@ bot.on('message', (message) => {
 		if (message.content == '!help') {
 		message.channel.sendMessage(
 			'Para usar el bot escribe "!fs " seguido del nombre del item que quieras subir. Por ejemplo: !fs kzarka' +'\n'
-			+ '\n' + '\n' + 'Para ver todas las posibilidades escribe: !fs');
+			+ '\n' + '\n' + 'Para ver todas las posibilidades escribe: !fs' + '\n' +
+			'Para recetas y guías escribe: !guides');
 	}
 
 		//Comando fs
@@ -316,11 +317,74 @@ bot.on('message', (message) => {
 			'!fs all');
 	}
 
+
+
+
+
+		//Guides
+		if (message.content == '!guides') {
+		message.channel.sendMessage(
+			'!timber map' + '\n' +
+			'!cocina');
+	}
+
+
+		//Gathering
+		//Madera
+			if (message.content == '!timber map' || message.content == '!mapa madera' || message.content == '!mapa de madera') {
+			message.channel.sendMessage(
+				'Zonas para recolectar madera:', {
+				file: "./timbermap.jpg"
+			});
+		}
+
+
+
+
+
+		//Cooking
+		//Recetas
+			if (message.content == '!cooking recipes' || message.content == '!recetas de cocina' || message.content == '!recetas cocina'
+				|| message.content == '!cocina' || message.content == '!cooking') {
+		message.channel.sendMessage(
+			'!cerveza' + '\n' +
+			'!esencia de licor' + '\n' +
+			'!honey wine');
+	}
+		//Beer
+				if (message.content == '!beer' || message.content == '!cerveza') {
+			message.channel.sendMessage(
+				'Receta de cerveza:', {
+				file: "./cooking/beer.png"
+			});
+		}
+		//Essence of Liquor
+				if (message.content == '!esencia de licor' || message.content == '!essence liquor' || message.content == '!essence of liquor'
+					|| message.content == '!licor' || message.content == '!liquor') {
+			message.channel.sendMessage(
+				'Receta de esencia de licor:', {
+				file: "./cooking/licor.png"
+			});
+		}
+		//Honey Wine
+				if (message.content == '!honey wine' || message.content == '!hidromiel' || message.content == '!honey'
+					|| message.content == '!miel') {
+			message.channel.sendMessage(
+				'Receta de honey wine:', {
+				file: "./cooking/honeywine.png"
+			});
+		}
+
+
 		//Tabla
 		if (message.content == '!tabla' || message.content == '!tabla de fs' || message.content == '!all') {
 			message.channel.sendMessage(
-				'Todos los FS', {
-				file: "./table.png"
-			});}
+				'Todos los FS:', {
+				file: "./fstable.png"
+			});
+		}
+
+
 });
+
 bot.login(process.env.BOT_TOKEN);
