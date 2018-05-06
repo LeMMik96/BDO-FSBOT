@@ -401,7 +401,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo liquido') {
 			message.channel.sendMessage(
 				'Receta de clear liquid reagent:', {
-				file: "./alchemy/clearliquid.png"
+				file: "BDO-FSBOT/alchemy/clearliquid.PNG "
 			});
 		}
 
