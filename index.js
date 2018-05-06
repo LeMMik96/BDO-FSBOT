@@ -355,7 +355,7 @@ bot.on('message', (message) => {
 				if (message.content == '!beer' || message.content == '!cerveza') {
 			message.channel.sendMessage(
 				'Receta de cerveza:', {
-				file: "./cooking/beer.png"
+				file: "./beer.png"
 			});
 		}
 		//Essence of Liquor
@@ -363,7 +363,7 @@ bot.on('message', (message) => {
 					|| message.content == '!licor' || message.content == '!liquor') {
 			message.channel.sendMessage(
 				'Receta de esencia de licor:', {
-				file: "./cooking/licor.png"
+				file: "./licor.png"
 			});
 		}
 		//Honey Wine
@@ -371,7 +371,7 @@ bot.on('message', (message) => {
 					|| message.content == '!miel') {
 			message.channel.sendMessage(
 				'Receta de honey wine:', {
-				file: "./cooking/honeywine.png"
+				file: "./honeywine.png"
 			});
 		}
 
@@ -392,7 +392,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo de polvo') {
 			message.channel.sendMessage(
 				'Receta de pure powder reagent:', {
-				file: "https://github.com/LeMMik96/BDO-FSBOT/blob/master/alchemy/clearliquid.PNG"
+				file: "./purepowder.png"
 			});
 		}
 
@@ -401,7 +401,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo liquido') {
 			message.channel.sendMessage(
 				'Receta de clear liquid reagent:', {
-				file: "/BDO-FSBOT/alchemy/clearliquid.PNG"
+				file: "./clearliquid.PNG"
 			});
 		}
 
@@ -410,7 +410,7 @@ bot.on('message', (message) => {
 					|| message.content == '!elixir criterio') {
 			message.channel.sendMessage(
 				'Receta de elixir of mentality:', {
-				file: "./alchemy/elixirmentality.png"
+				file: "./elixirmentality.png"
 			});
 		}
 
