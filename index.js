@@ -320,7 +320,7 @@ bot.on('message', (message) => {
 		if (message.content == '!tabla' || message.content == '!tabla de fs' || message.content == '!all') {
 			message.channel.sendMessage(
 				'Todos los FS', {
-				file: "./fstable.png"
+				file: "./table.png"
 			});}
 });
 bot.login(process.env.BOT_TOKEN);
