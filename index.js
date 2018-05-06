@@ -9,7 +9,8 @@ bot.on('ready', () => {
 bot.on('message', (message) => {
 	//Joyería azul
 	if (message.content == '!fs joyeria azul' || message.content == '!fs blue accessories') {
-		message.channel.sendMessage('PRI: 15-20 (max 25)' + '\n' + 
+		message.channel.sendMessage(
+			'PRI: 15-20 (max 25)' + '\n' + 
 			'DUO: 25-30 (max 35)' + '\n' + 
 			'TRI: 35-40 (max 45)' + '\n' + 
 			'TET: +45 (max 90)' + '\n' + 
@@ -19,7 +20,8 @@ bot.on('message', (message) => {
 	//Joyería amarilla
 	if (message.content == '!fs joyeria amarilla' || message.content == '!fs joyeria boss' 
 		|| message.content == '!fs yellow accessories') {
-		message.channel.sendMessage('PRI: 25 (max 25)' + '\n' + 
+		message.channel.sendMessage(
+			'PRI: 25 (max 25)' + '\n' + 
 			'DUO: 35 (max 35)' + '\n' + 
 			'TRI: 45 (max 45)' + '\n' + 
 			'TET: 90 (max 90)' + '\n' + 
@@ -31,7 +33,8 @@ bot.on('message', (message) => {
 		|| message.content == '!fs nouver' || message.content == '!fs offin' || message.content == '!fs offin tetts'  
   		|| message.content == '!fs offin tet'  || message.content == '!fs offin tets' || message.content == "!fs offin tett's"
   		|| message.content == "!fs offin tet's") {
-		message.channel.sendMessage('+1 hasta +7: dale duro 100% real' + '\n'+
+		message.channel.sendMessage(
+		'+1 hasta +7: dale duro 100% real' + '\n'+
 		'+8: 10fs (max 13)' + '\n' +
 		'+9: 11fs (max 14)' + '\n' +
 		'+10: 12fs (max 15)' + '\n' +
@@ -51,7 +54,8 @@ bot.on('message', (message) => {
 		if (message.content == '!fs bheg' || message.content == '!fs giath' || message.content == '!fs dim tree'
 		 || message.content == '!fs red nose' || message.content == '!fs griffon' || message.content == '!fs urugon'
 		 || message.content == '!fs muskan'  || message.content == '!fs muskans' || message.content == '!fs urugons') {
-		message.channel.sendMessage('+1 hasta +5: dale duro 100% real' + '\n'+
+		message.channel.sendMessage(
+		'+1 hasta +5: dale duro 100% real' + '\n'+
 		'+6: 2-3fs (max 10)' + '\n' +
 		'+7: 4-5fs (max 12)' + '\n' +
 		'+8: 6-8fs (max 13)' + '\n' +
@@ -84,7 +88,8 @@ bot.on('message', (message) => {
 		|| message.content == '!fs scale vambrace' || message.content == '!fs iron vambrace'
 		|| message.content == '!fs bronze' || message.content == '!fs steel' || message.content == '!fs scale'
 		|| message.content == '!fs iron') {
-		message.channel.sendMessage('+1 hasta +7: dale duro 100% real' + '\n'+
+		message.channel.sendMessage(
+		'+1 hasta +7: dale duro 100% real' + '\n'+
 		'+8: 1-3fs (max 13)' + '\n' +
 		'+9: 5fs (max 14)' + '\n' +
 		'+10: 8fs (max 15)' + '\n' +
@@ -103,7 +108,8 @@ bot.on('message', (message) => {
 	//Equipo verde
 	if (message.content == '!fs equipo verde' || message.content == '!fs green stuff' || message.content == '!fs green item' 
      || message.content == '!fs green gear' || message.content == '!fs armadura verde' || message.content == '!fs arma verde') {
-		message.channel.sendMessage('ARMADURA:' + '\n' +
+		message.channel.sendMessage(
+		'ARMADURA:' + '\n' +
 		'+1 hasta +5: dale duro 100% real' + '\n' +
 		'+6: 1-3fs (max 10)' + '\n' +
 		'+7: 1-3fs (max 12)' + '\n' +
@@ -141,7 +147,8 @@ bot.on('message', (message) => {
 	if (message.content == '!fs equipo azul' || message.content == '!fs blue stuff' || message.content == '!fs blue item' || message.content == '!fs blue gear'
   || message.content == '!fs liverto' || message.content == '!fs lemoria' || message.content == '!fs armadura azul' 
   || message.content == '!fs arma azul' || message.content == '!fs blue awakening' || message.content == '!fs awakening azul') {
-		message.channel.sendMessage('ARMADURA:' + '\n' +
+		message.channel.sendMessage(
+		'ARMADURA:' + '\n' +
 		'+1 hasta +5: dale duro 100% real' + '\n'+
 		'+6: 2-3fs (max 10)' + '\n' +
 		'+7: 4-5fs (max 12)' + '\n' +
@@ -179,7 +186,8 @@ bot.on('message', (message) => {
 	if (message.content == '!fs equipo boss' || message.content == '!fs boss stuff' || message.content == '!fs boss item' || message.content == '!fs boss gear'
 		|| message.content == '!fs equipo amarillo' || message.content == '!fs equipo de boss' || message.content == '!fs armadura boss'
 		|| message.content == '!fs armadura de boss' || message.content == '!fs arma de boss' || message.content == '!fs boss armor') {
-		message.channel.sendMessage('ARMADURA:' + '\n' +
+		message.channel.sendMessage(
+		'ARMADURA:' + '\n' +
 		'+1 hasta +5: dale duro 100% real' + '\n'+
 		'+6: 2-3fs (max 10)' + '\n' +
 		'+7: 4-5fs (max 12)' + '\n' +
@@ -217,7 +225,8 @@ bot.on('message', (message) => {
 	if (message.content == '!fs grunil' || message.content == '!fs agerian' || message.content == '!fs rocaba'
 		 || message.content == '!fs taritas' || message.content == '!fs hercules' || message.content == '!fs zereth'
 		 || message.content == '!fs heve'  || message.content == '!fs talis' || message.content == '!fs fortuna') {
-		message.channel.sendMessage('+1 hasta +5: dale duro 100% real' + '\n'+
+		message.channel.sendMessage(
+		'+1 hasta +5: dale duro 100% real' + '\n'+
 		'+6: 1-3fs (max 10)' + '\n' +
 		'+7: 1-3fs (max 12)' + '\n' +
 		'+8: 1-3fs (max 13)' + '\n' +
@@ -244,33 +253,73 @@ bot.on('message', (message) => {
 			|| message.content == '!fs traje sailing' || message.content == '!fs traje farming' || message.content == '!fs traje trading'
 			|| message.content == '!fs traje' || message.content == '!fs traje de profesion' || message.content == '!fs ropa de profesion'
    			|| message.content == '!fs professional clothes') {
-		message.channel.sendMessage('+1: 0-3 (max 25)' + '\n' + 
+		message.channel.sendMessage(
+			'+1: 0-3 (max 25)' + '\n' + 
 			'+2: 10 (max 35)' + '\n' + 
 			'+3: 20 (max 45)' + '\n' + 
-			'+4: max 90' + '\n' + 
-			'+5: max 124');
+			'+4: 45 (max 90)' + '\n' + 
+			'+5: 75 (max 124)');
 	}
+
+	//Horse Gear
+	if (message.content == '!fs horse gear' || message.content == '!fs equipo caballo' || message.content == '!fs herradura'
+		 || message.content == '!fs caballo' || message.content == '!fs silla' || message.content == '!fs equipo de caballo') {
+		message.channel.sendMessage(
+		'+1: 3fs' + '\n'+
+		'+2: 4fs' + '\n'+
+		'+3: 5fs' + '\n'+
+		'+4: 6fs' + '\n'+
+		'+5: 7fs' + '\n'+
+		'+6: 10fs' + '\n' +
+		'+7: +10fs' + '\n' +
+		'+8: 20fs' + '\n' +
+		'+9: +20fs' + '\n' +
+		'+10: 25-30fs' + '\n');
+	}
+
+	//Fishing rod
+	if (message.content == '!fs caña' || message.content == '!fs caña pescar' || message.content == '!fs caña de pescar'
+		 || message.content == '!fs rod' || message.content == '!fs fishing rod') {
+		message.channel.sendMessage(
+		'+1: 6fs' + '\n'+
+		'+2: 8fs' + '\n'+
+		'+3: 11fs' + '\n'+
+		'+4: 11fs' + '\n'+
+		'+5: 11fs' + '\n'+
+		'+6: 15fs' + '\n' +
+		'+7: +15fs' + '\n' +
+		'+8: 20fs' + '\n' +
+		'+9: forzar' + '\n' +
+		'+10: forzar' + '\n' +
+		'Sí, forzad los encantamientos aunque en total se gasten más de 200 blackstones, si la caña baja es aún peor. ');
+	}	
 
 		//Comando help
 		if (message.content == '!help') {
-		message.channel.sendMessage('Para usar el bot escribe "!fs " seguido del nombre del item que quieras subir. Por ejemplo: !fs kzarka' +'\n'
+		message.channel.sendMessage(
+			'Para usar el bot escribe "!fs " seguido del nombre del item que quieras subir. Por ejemplo: !fs kzarka' +'\n'
 			+ '\n' + '\n' + 'Para ver todas las posibilidades escribe: !fs');
 	}
 
 		//Comando fs
 		if (message.content == '!encantamiento'|| message.content == '!enchant' || message.content == '!enchancement'
 			|| message.content == '!fs') {
-		message.channel.sendMessage('!fs equipo verde' + '\n' +
+		message.channel.sendMessage(
+			'!fs equipo verde' + '\n' +
 			'!fs equipo azul' + '\n' +
 			'!fs equipo de boss' + '\n' +
 			'!fs joyeria azul' + '\n' +
 			'!fs joyeria amarilla' + '\n' +
 			'!fs traje profesion' + '\n' +
+			'!fs equipo de caballo' + '\n' +
+			'!fs caña de pescar' + '\n' +
 			'!fs all');
 	}
 
+		//Tabla
 		if (message.content == '!tabla' || message.content == '!tabla de fs' || message.content == '!all') {
-			message.channel.sendMessage('Todos los FS', {
+			message.channel.sendMessage(
+				'Todos los FS', {
 				file: "https://raw.githubusercontent.com/LeMMik96/BDO-FSBOT/master/Tabla_de_enchant.png"
 			});}
 });
