@@ -392,7 +392,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo de polvo') {
 			message.channel.sendMessage(
 				'Receta de pure powder reagent:', {
-				file: "./purepowder.png"
+				file: "https://ibb.co/nzvYPS"
 			});
 		}
 
@@ -401,7 +401,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo liquido') {
 			message.channel.sendMessage(
 				'Receta de clear liquid reagent:', {
-				file: "./clearliquid.PNG"
+				file: "https://ibb.co/fWoWB7"
 			});
 		}
 
@@ -410,7 +410,7 @@ bot.on('message', (message) => {
 					|| message.content == '!elixir criterio') {
 			message.channel.sendMessage(
 				'Receta de elixir of mentality:', {
-				file: "./elixirmentality.png"
+				file: "https://ibb.co/hSKGdn"
 			});
 		}
 
@@ -435,7 +435,7 @@ bot.on('message', (message) => {
 });
 
 //Login Heroku
-bot.login(process.env.BOT_TOKE);
+bot.login(process.env.BOT_TOKEN);
 
 //Login local
 //bot.login('NDQxNTExNzUwOTkxNDc4Nzg3.DcxVjQ.GVwFlmXnP5J9EPA9o1WSDZZ9YLM');
