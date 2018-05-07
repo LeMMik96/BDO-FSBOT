@@ -355,7 +355,7 @@ bot.on('message', (message) => {
 				if (message.content == '!beer' || message.content == '!cerveza') {
 			message.channel.sendMessage(
 				'Receta de cerveza:', {
-				file: "./beer.png"
+				file: "./cooking/beer.PNG"
 			});
 		}
 		//Essence of Liquor
@@ -363,7 +363,7 @@ bot.on('message', (message) => {
 					|| message.content == '!licor' || message.content == '!liquor') {
 			message.channel.sendMessage(
 				'Receta de esencia de licor:', {
-				file: "./licor.png"
+				file: "./licor.PNG"
 			});
 		}
 		//Honey Wine
