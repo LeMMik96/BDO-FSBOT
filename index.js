@@ -363,7 +363,7 @@ bot.on('message', (message) => {
 					|| message.content == '!licor' || message.content == '!liquor') {
 			message.channel.sendMessage(
 				'Receta de esencia de licor:', {
-				file: "./licor.PNG"
+				file: "./cooking/licor.PNG"
 			});
 		}
 		//Honey Wine
@@ -371,7 +371,7 @@ bot.on('message', (message) => {
 					|| message.content == '!miel') {
 			message.channel.sendMessage(
 				'Receta de honey wine:', {
-				file: "./honeywine.png"
+				file: "./cooking/honeywine.PNG"
 			});
 		}
 
@@ -392,7 +392,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo de polvo') {
 			message.channel.sendMessage(
 				'Receta de pure powder reagent:', {
-				file: "https://ibb.co/nzvYPS"
+				file: "./alchemy/purepowder.PNG"
 			});
 		}
 
@@ -401,7 +401,7 @@ bot.on('message', (message) => {
 					|| message.content == '!reactivo liquido') {
 			message.channel.sendMessage(
 				'Receta de clear liquid reagent:', {
-				file: "https://ibb.co/fWoWB7"
+				file: "./alchemy/clearliquid.PNG"
 			});
 		}
 
@@ -410,7 +410,7 @@ bot.on('message', (message) => {
 					|| message.content == '!elixir criterio') {
 			message.channel.sendMessage(
 				'Receta de elixir of mentality:', {
-				file: "https://ibb.co/hSKGdn"
+				file: "./alchemy/elixirmentality.PNG"
 			});
 		}
 
