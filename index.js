@@ -13,7 +13,8 @@ bot.on('message', (message) => {
 			'Añadidas recetas de cocina y alquimia básicas: !cocina y !alqumia' + '\n' + 
 			'Añadido mapa de maderas: !timber map' + '\n' + 
 			'Añadidas capturas sobre training, qué caballos podemos domar y dónde: !training' + '\n' + 
-			'Añadido comando para ver todas las guías: !guides');
+			'Añadido comando para ver todas las guías: !guides' + '\n' + '\n' + '\n' +
+			'Ampliada guía de alquimia, incluida receta de alchemy stones.');
 	}
 
 
