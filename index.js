@@ -501,7 +501,7 @@ bot.on('message', (message) => {
 		if (message.content == '!lump of raw sugar' || message.content == '!lump of sugar'
 			|| message.content == '!terron de azucar' || message.content == '!terron de azucar moreno') {
 			message.channel.sendMessage(
-				'Receta de cerveza:', {
+				'Hacer heating a:', {
 				file: "./training/lump.png"
 			});
 		}
