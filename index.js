@@ -399,7 +399,9 @@ bot.on('message', (message) => {
 			'!elixir of mentality' + '\n' +
 			'!sinner blood' + '\n' +
 			'!elixir of demihuman' + '\n' +
-			'!pure crystal');
+			'!metal solvent' + '\n' +
+			'!pure crystal' + '\n' +
+			'!alchemy stone');
 	}
 		//Pure powder
 				if (message.content == '!pure powder reagent' || message.content == '!pure powder' || message.content == '!reactivo de polvo puro'
