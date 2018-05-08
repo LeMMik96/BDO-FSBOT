@@ -445,6 +445,14 @@ bot.on('message', (message) => {
 				file: "./alchemy/sinner.PNG"
 			});
 		}
+	
+		//Metal Solvent
+			if (message.content == '!metal solvent' || message.content == '!disolvente de metales' || message.content == '!disolvente metales') {
+			message.channel.sendMessage(
+				'Receta de metal solvent:', {
+				file: "./alchemy/metalsolvent.PNG"
+			});
+		}
 
 		//Pure Crystals
 			if (message.content == '!pure crystal' || message.content == '!cristal puro' || message.content == "!pure iron crystal"
@@ -453,6 +461,14 @@ bot.on('message', (message) => {
 			message.channel.sendMessage(
 				'Receta de cualquier pure crystal, sólo tenéis que cambiar los iron ingots por los de cualquier otro metal:', {
 				file: "./alchemy/purecrystal.PNG"
+			});
+		}
+	
+		//Alchemy stone
+			if (message.content == '!alchemy stone' || message.content == '!piedra de alquimia' || message.content == '!piedra alquimia') {
+			message.channel.sendMessage(
+				'No existe una receta fija para la piedra de alquimia, todas las recetas fallan. Hay bastante consenso en utilizar esta:', {
+				file: "./alchemy/alchemystone.PNG"
 			});
 		}
 
