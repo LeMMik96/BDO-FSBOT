@@ -323,7 +323,7 @@ bot.on('message', (message) => {
 			'!fs traje profesion' + '\n' +
 			'!fs equipo de caballo' + '\n' +
 			'!fs caña de pescar' + '\n' +
-			'!fs all');
+			'!all');
 	}
 
 
