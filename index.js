@@ -10,10 +10,8 @@ bot.on('message', (message) => {
 	if (message.content == '!news' || message.content == '!novedades') {
 		message.channel.sendMessage(
 			'Añadida la nueva arma de boss: !fs offin tetts' + '\n' + 
-			'Añadidas recetas de cocina y alquimia básicas: !cocina y !alqumia' + '\n' + 
-			'Añadido mapa de maderas: !timber map' + '\n' + 
-			'Añadidas capturas sobre training, qué caballos podemos domar y dónde: !training' + '\n' + 
-			'Añadido comando para ver todas las guías: !guides' + '\n' + '\n' + '\n' +
+			'Añadidas guías (cocina, alquimia, training): !guides' + '\n' + '\n' + '\n' +
+			'Podéis usar los comandos hablando por privado con el bot (para mayor intimidad :3)' + '\n' +
 			'Ampliada guía de alquimia, incluida receta de alchemy stones.');
 	}
 
