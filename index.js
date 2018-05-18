@@ -339,6 +339,13 @@ bot.on('message', (message) => {
 			'!training');
 	}
 
+	
+	//Fishing
+	
+	if (message.content == '!fishing' || message.content == '!pesca') {
+		message.channel.sendMessage(
+			"Don't even try.");
+	}
 
 		//Gathering
 		//Madera
