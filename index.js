@@ -562,7 +562,16 @@ bot.on('message', (message) => {
 			'!cocina' + '\n' +
 			'!alquimia');
 	}
-
+	
+	
+	//Boss Timer
+		if (message.content == '!boss' || message.content == '!world boss' || message.content == '!boss timer'
+		   || message.content == '!world boss timer' || message.content == '!horario boses' || message.content == '!horario') {
+			message.channel.sendMessage(
+				'Todos los FS:', {
+				file: "./boss.png"
+			});
+		}
 		//Tabla
 		if (message.content == '!tabla' || message.content == '!tabla de fs' || message.content == '!all') {
 			message.channel.sendMessage(
