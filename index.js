@@ -568,9 +568,10 @@ bot.on('message', (message) => {
 		if (message.content == '!boss' || message.content == '!world boss' || message.content == '!boss timer'
 		   || message.content == '!world boss timer' || message.content == '!horario bosses' || message.content == '!horario'
 		    || message.content == '!horarios' || message.content == '!horarios bosses'  || message.content == '!horarios boses'
-		    || message.content == '!horario boses'  || message.content == '!timer') {
+		    || message.content == '!horario boses'  || message.content == '!timer'  || message.content == '!spawns'
+		    || message.content == '!boss spawn'  || message.content == '!boss spawns'  || message.content == '!world boss spawn') {
 			message.channel.sendMessage(
-				'Todos los FS:', {
+				'World Boss spawns:', {
 				file: "./boss.png"
 			});
 		}
