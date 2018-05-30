@@ -566,7 +566,9 @@ bot.on('message', (message) => {
 	
 	//Boss Timer
 		if (message.content == '!boss' || message.content == '!world boss' || message.content == '!boss timer'
-		   || message.content == '!world boss timer' || message.content == '!horario boses' || message.content == '!horario') {
+		   || message.content == '!world boss timer' || message.content == '!horario bosses' || message.content == '!horario'
+		    || message.content == '!horarios' || message.content == '!horarios bosses'  || message.content == '!horarios boses'
+		    || message.content == '!horario boses') {
 			message.channel.sendMessage(
 				'Todos los FS:', {
 				file: "./boss.png"
