@@ -308,7 +308,8 @@ bot.on('message', (message) => {
 		message.channel.sendMessage(
 			'Para usar el bot escribe "!fs " seguido del nombre del item que quieras subir. Por ejemplo: !fs kzarka' +'\n'
 			+ '\n' + '\n' + 'Para ver todas las posibilidades escribe: !fs' + '\n' +
-			'Para recetas y guías escribe: !guides');
+			'Para recetas y guías escribe: !guides' + '\n' +
+			'Horarios de bosses: !boss timer');
 	}
 
 		//Comando fs
