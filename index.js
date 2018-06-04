@@ -37,6 +37,18 @@ bot.on('message', (message) => {
 			'PEN: max 124');
 	}
 
+	//Asula
+	if (message.content == '!fs asula') {
+		message.channel.sendMessage(
+			'La joyería de asula no es recomendable subirla, ya que corremos el riesgo de perderla y sube muy poco sus stats.' + '\n' + 
+			'Si aún así quieres intentarlo, es joyería muy sencilla de subir:' + '\n' + 
+			'PRI: 0' + '\n' + 
+			'DUO: 5-10' + '\n' + 
+			'TRI: 10-15' + '\n' + 
+			'TET: +20' + '\n' + 
+			'PEN: +25-30');
+	}
+	
 	//Armas de boss
 	if (message.content == '!fs kzarka' || message.content == '!fs dandelion' || message.content == '!fs kutum' 
 		|| message.content == '!fs nouver' || message.content == '!fs offin' || message.content == '!fs offin tetts'  
