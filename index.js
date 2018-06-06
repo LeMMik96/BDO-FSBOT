@@ -9,10 +9,9 @@ bot.on('ready', () => {
 bot.on('message', (message) => {
 	if (message.content == '!news' || message.content == '!novedades') {
 		message.channel.sendMessage(
-			'Añadida la nueva arma de boss: !fs offin tetts' + '\n' + 
-			'Añadidas guías (cocina, alquimia, training): !guides' + '\n' + '\n' + '\n' +
+			'Guías (cocina, alquimia, training): !guides' + '\n' +
 			'Podéis usar los comandos hablando por privado con el bot (para mayor intimidad :3)' + '\n' +
-			'Ampliada guía de alquimia, incluida receta de alchemy stones.');
+			'Horario de bosses. Comando: !boss');
 	}
 
 
