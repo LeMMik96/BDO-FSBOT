@@ -584,7 +584,7 @@ bot.on('message', (message) => {
 		    || message.content == '!boss spawn'  || message.content == '!boss spawns'  || message.content == '!world boss spawn') {
 			message.channel.sendMessage(
 				'World Boss spawns:', {
-				file: "./boss.png"
+				file: "./bosstimer.png"
 			});
 		}
 		//Tabla
