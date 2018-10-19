@@ -402,6 +402,13 @@ bot.on('message', (message) => {
 				'Receta de honey wine:', {
 				file: "./cooking/honeywine.PNG"
 			});
+					//Grilled Bird Meat
+				if (message.content == '!bird' || message.content == '!bird meat' || message.content == '!grilled bird'
+					|| message.content == '!griled bird meat') {
+			message.channel.sendMessage(
+				'Receta de Grilled Bird Meat:', {
+				file: "./cooking/bird.PNG"
+			});
 		}
 
 
